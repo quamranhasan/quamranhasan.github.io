@@ -1,4 +1,4 @@
-#Acknowledgement
+## Acknowledgement
 I (Quamran) got this theme from Varad Bhogayata. All credit goes to him.
 https://github.com/varadbhogayata/varadbhogayata.github.io. 
 # Personal Portfolio ⚡️ 
