@@ -701,3 +701,26 @@ small {
     background-position-x: 30%;
   }
 }
+
+.skill-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.skill-tag {
+  display: inline-block;
+  padding: 7px 14px;
+  border: 1px solid #d9e2e1;
+  border-radius: 999px;
+  background: #f8fbfb;
+  color: #37474f;
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
