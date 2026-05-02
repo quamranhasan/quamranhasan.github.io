@@ -724,6 +724,8 @@ small {
   font-size: 0.95rem;
   line-height: 1.2;
 }
+
+
 #publications .row {
   margin-bottom: 0;
 }
@@ -735,12 +737,12 @@ small {
 }
 
 .publication-item {
-  background: #fff;
-  border: 1px solid #e6e6e6;
-  border-radius: 10px;
-  padding: 18px 22px;
+  background: #ffffff;
+  border: 1px solid #e3e7e7;
+  border-radius: 12px;
+  padding: 20px 22px;
   margin-bottom: 18px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 .publication-item:last-child {
@@ -748,11 +750,12 @@ small {
 }
 
 .publication-title {
-  display: inline-block;
-  font-size: 1.08rem;
+  display: block;
+  margin-bottom: 12px;
+  font-size: 1.12rem;
   font-weight: 600;
+  line-height: 1.5;
   color: #004d40;
-  margin-bottom: 8px;
   border-bottom: none !important;
 }
 
@@ -761,40 +764,55 @@ small {
   text-decoration: underline;
 }
 
-.publication-text p {
+.publication-meta {
   margin: 0;
-  color: #444;
-  line-height: 1.7;
+  color: #333;
+  line-height: 1.8;
 }
 
-.publication-links {
-  margin-top: 12px;
+.publication-actions {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.publication-links a {
+.pub-btn {
   display: inline-block;
-  margin-right: 14px;
+  padding: 8px 14px;
+  background: #eef4f3;
+  color: #004d40 !important;
+  border: 1px solid #d7e3e1;
+  border-radius: 8px;
   font-size: 0.95rem;
-  font-weight: 500;
-  color: #008073;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
   border-bottom: none !important;
+  transition: all 0.2s ease;
 }
 
-.publication-links a:hover {
-  text-decoration: underline;
+.pub-btn:hover {
+  background: #dfeceb;
+  color: #00332c !important;
+  transform: translateY(-1px);
 }
 
 @media (max-width: 600px) {
   .publication-item {
-    padding: 16px 16px;
+    padding: 16px;
   }
 
   .publication-title {
     font-size: 1rem;
   }
 
-  .publication-links a {
-    margin-right: 10px;
-    margin-bottom: 6px;
+  .publication-meta {
+    line-height: 1.7;
+  }
+
+  .pub-btn {
+    font-size: 0.9rem;
+    padding: 8px 12px;
   }
 }
